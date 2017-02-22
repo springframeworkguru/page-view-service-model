@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>page-view-service-model</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <name>Page View Service Data Model</name>
     <description>A simple data model for use in one of my courses on the Spring Framework.</description>
