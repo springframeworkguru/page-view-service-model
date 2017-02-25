@@ -10,36 +10,34 @@ import java.util.Date;
 @XmlRootElement
 public class PageViewEvent {
 
-    @XmlElement
     private String pageUrl;
-
-    @XmlElement
-    private String id;
-
-    @XmlElement
     private Date pageViewDate;
+    private String correlationId;
 
     public String getPageUrl() {
         return pageUrl;
     }
 
+    @XmlElement
     public void setPageUrl(String pageUrl) {
         this.pageUrl = pageUrl;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public Date getPageViewDate() {
         return pageViewDate;
     }
 
+    @XmlElement
     public void setPageViewDate(Date pageViewDate) {
         this.pageViewDate = pageViewDate;
+    }
+
+    public String getCorrelationId() {
+        return correlationId;
+    }
+
+    @XmlElement
+    public void setCorrelationId(String correlationId) {
+        this.correlationId = correlationId;
     }
 }
